@@ -102,14 +102,7 @@ int main() {
             std::cout << "INVALID NUMBER!" << std::endl;
         }
     }
-
-/*
-    std::cout << createUser(datenbank, "Yasemin", "Schokolade") << std::endl;
-    std::cout << createUser(datenbank, "Yasemin", "Schoko") << std::endl;
-    std::cout << createUser(datenbank, "Yase", "Schokolade") << std::endl;
-
-    std::cout << authenticateUser(datenbank, "Yasemi", "Schokolade") << std::endl;
-*/
+    
     return 0;
 
 }
