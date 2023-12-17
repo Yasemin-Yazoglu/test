@@ -102,7 +102,6 @@ int main() {
             std::cout << "INVALID NUMBER!" << std::endl;
         }
     }
-    
     return 0;
 
 }
