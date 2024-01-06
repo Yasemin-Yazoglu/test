@@ -54,7 +54,7 @@ bool istFertig (std::string& current_state, std::string solution) {
 
 void gameLoop (std::string solution) {
 	char letters;
-	int leben = 10;
+	int leben = 5;
 
 	std::string curr = verstecken(solution);
 
@@ -76,7 +76,8 @@ void gameLoop (std::string solution) {
 			std::cout << "Falscher Buchstabe, du hast ein Leben verloren!" << "	" << "Anzahl der Leben: " << leben << std::endl;
 			if (leben == 0) {
 				std::cout << "Du hast kein Leben mehr!" << std::endl;
-				break;
+                std::cout << solution << std::endl;
+                break;
 			}
 		}
 
